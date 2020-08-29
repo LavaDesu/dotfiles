@@ -1,0 +1,8 @@
+#!/bin/sh
+
+BRIDGE=$HOME/.local/lib/ipcbridge.exe
+
+"$1" run "$BRIDGE" &
+"$1" run "$HOME/.local/lib/BakkesMod.exe" &
+"$1" run "${@:3}"
+

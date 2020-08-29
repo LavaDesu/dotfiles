@@ -1,0 +1,49 @@
+{
+  "OutputMode": "TabletDriverLib.Output.AbsoluteMode",
+  "Filters": [
+    "OTDPlugins.MLFilter"
+  ],
+  "AutoHook": true,
+  "DisplayWidth": 1920.0,
+  "DisplayHeight": 1080.0,
+  "DisplayXOffset": 960.0,
+  "DisplayYOffset": 540.0,
+  "TabletWidth": 65.0,
+  "TabletHeight": 36.5625,
+  "TabletXOffset": 44.49756,
+  "TabletYOffset": 27.651102,
+  "TabletRotation": 0.0,
+  "EnableClipping": true,
+  "LockAspectRatio": true,
+  "XSensitivity": 10.0,
+  "YSensitivity": 10.0,
+  "RelativeResetDelay": "00:00:00.1000000",
+  "TipActivationPressure": 0.01,
+  "TipButton": "TabletDriverLib.Binding.MouseBinding, Left",
+  "PenButtons": [
+    "TabletDriverLib.Binding.MouseBinding, Right",
+    "TabletDriverLib.Binding.MouseBinding, Right"
+  ],
+  "AuxButtons": [
+    "TabletDriverLib.Binding.KeyBinding, grave",
+    "TabletDriverLib.Binding.KeyBinding, grave",
+    "TabletDriverLib.Binding.KeyBinding, grave",
+    "TabletDriverLib.Binding.KeyBinding, grave"
+  ],
+  "PluginSettings": {
+    "Weight": "1.2",
+    "ResetInterval": "100",
+    "DistanceThreshold": "1.5",
+    "Strength": "2",
+    "Sharpness": "1.9",
+    "OTDPlugins.MLFilter.AvgSamples": "0",
+    "OTDPlugins.MLFilter.ScreenWidth": "1920",
+    "OTDPlugins.MLFilter.ScreenHeight": "1080",
+    "OTDPlugins.MLFilter.Normalize": "True",
+    "OTDPlugins.MLFilter.Degree": "2",
+    "OTDPlugins.MLFilter.Samples": "20",
+    "OTDPlugins.MLFilter.Weight": "2",
+    "OTDPlugins.MLFilter.Offset": "0"
+  },
+  "Tools": []
+}
