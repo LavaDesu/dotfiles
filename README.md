@@ -18,7 +18,7 @@ Binaries / Things that should be placed in some configs
 
 - alacritty
 - alsa-utils
-- dusnt
+- dunst
 - i3-gaps
 - libcanberra
 - maim
