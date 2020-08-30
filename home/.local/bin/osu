@@ -8,5 +8,5 @@ export STAGING_AUDIO_PERIOD=10000
 export vblank_mode=0
 
 cd /home/lava/Osu # Or wherever you installed osu! in
-wine /home/lava/.local/lib/winediscordipcbridge.exe &
+wine /home/lava/.local/lib/ipcbridge.exe &
 wine osu!.exe "$@"
