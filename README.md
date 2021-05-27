@@ -1,3 +1,6 @@
+[i use nix now](https://github.com/LavaDesu/flakes)
+
+
 # Lava's dotfiles
 
 Some dotfiles and other configuration files for my Arch Linux setup.
